@@ -1,0 +1,306 @@
+#guide_catdiv, #tagsdiv-guide_tag{
+    display: none !important;
+}
+
+#tkugp_items_list_html{
+    display: none !important;
+}
+
+.tkugp_list_item a:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #00a0d2;
+}
+#tkugp_addnew_button_metabox {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+#tkugp_addnew_button_metabox .handlediv {
+    display: none;
+}
+
+#tkugp_addnew_button_metabox h3.hndle.ui-sortable-handle {
+    display: none;
+}
+
+.tkugp_list_item label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tkugp_list_item .tkugp_list_item_title {
+    width: 70%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tkugp_list_item .tkugp_list_item_content {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.tkugp_list_item .tkugp_list_item_image {
+    width: 70%;
+}
+
+.tkugp_list_item .tkugp_list_item_tags {
+    width: 70%;
+}
+
+.tkugp_list_item .tkugp_list_item_link {
+    width: 70%;
+}
+
+img.tkugp_list_item_preview {
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 3px 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.tkugp_list_item_newcategory, .tkugp_list_item_newtag{
+    padding: 0 10px;
+}
+
+.tkugp_addnew_catwrap{
+    overflow: hidden;
+    display: inline-block;
+    padding: 2px;
+    vertical-align: bottom;
+}
+
+.tkugp_hide{display: none !important;}
+
+div.tkugp_category_item_tags_list, span.tkgup_list_item_categorylist {
+    display: block;
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.tkugp_category_item_tags_list span a, span.tkgup_list_item_categorylist span a {
+    margin: 1px 0 0 -17px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    text-indent: 0;
+    position: absolute;
+    text-decoration: none;
+}
+
+div.tkugp_category_item_tags_list span, div.tkugp_category_item_tags_list span a {
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+
+span.tkgup_list_item_categorylist span, span.tkgup_list_item_categorylist span a {
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+div.tkugp_category_item_tags_list span a:before, span.tkgup_list_item_categorylist span a:before{
+    background: 0 0;
+    color: #b4b9be;
+    content: '\f153';
+    display: block;
+    font: 400 16px/20px dashicons;
+    speak: none;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+div.tkugp_category_item_tags_list span a:hover:before{
+    color: #c00;
+}
+
+
+.tkugp_post_settings{
+  display: none;
+}
+
+.tkugp_post_settings p label, .tkugp_post_settings div label {
+    display: inline-block;
+    width: 20%;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+.tkugp_post_settings p input {
+    width: 55%;
+}
+
+#tkugp_publish{
+    float: right;
+}
+
+span.tkugp_list_item_imgdel {
+    display: block;
+    color: red;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.tkugp_option_type_tag,
+.tkugp_option_type_category,
+.tkugp_option_type_favrt,
+.tkugp_list_item_link_wrap {
+    margin: 25px 0;
+    display: block;
+    padding-top: 20px;
+}
+
+
+.tkugp_option_type_category label, .tkugp_option_type_tag label, .tkugp_option_type_favrt label {
+    display: block;
+    width: 100%;
+    padding-top: 10px
+}
+
+.tkugp_option_type_category input, .tkugp_option_type_tag input, .tkugp_option_type_favrt input{
+    width: 70%;
+}
+
+.tkuugp_option_type_del{
+    background-color: #eee;
+}
+
+.tkugp_del_optiontype {
+    text-decoration: none;
+    float: right;
+    color: red;
+}
+
+p.tkugp_del_optiontype_wrap {
+    overflow: hidden;
+}
+
+a.tkugp_addoption_type{
+    padding-left: 10px;
+}
+
+.tkugp_new_category_item{
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+    margin: 5px 2px;
+}
+
+.tkugp_new_category_item {
+    padding-top: 0;
+    padding-left: 0;
+}
+.tkugp_new_category_item.closed{
+    padding-bottom: 0;
+}
+
+#poststuff .tkugp_new_category_item h3.tkugp_hndle, #poststuff .tkugp_list_item h3.tkugp_hndle
+{
+    padding: 4px 7px;
+    border-bottom: 1px solid #eee;
+    cursor: move;
+}
+
+.tkugp_new_category_item .tkugp_handlediv, .tkugp_list_item  .tkugp_handlediv{
+    float: right;
+    width: 27px;
+    height: 30px;
+    cursor: pointer;
+    color: #a0a5aa;
+}
+
+.tkugp_new_category_item .tkugp_handlediv:before, 
+.tkugp_list_item .tkugp_handlediv:before{
+    right: 12px;
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: inline-block;
+    padding: 3px 15px;
+    top: 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    content: '\f142';
+}
+#tkugp_category_item_wrap .closed .tkugp_handlediv:before, .tkugp_list_item.closed .tkugp_handlediv:before{
+    content: '\f140' !important;
+}
+
+
+
+#tkugp_category_item_wrap .tkugp_new_category_item label{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    text-align: right;
+    padding: 2px 4px;
+}
+
+#tkugp_category_item_wrap .tkugp_new_category_item input {
+    width: 70%;
+}
+
+
+#tkugp_category_item_wrap .tkugp_new_category_item input.tkugp_enable_favrt {
+    width: auto;
+}
+
+#tkugp_category_item_wrap .tkugp_new_category_item .button {
+    width: auto;
+}
+
+#tkugp_category_item_wrap div.form-field {
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+
+#tkugp_category_item_wrap p.description{
+    font-size: 11px;
+    text-align: center;
+}
+
+.tkugp_alignright{
+    text-align: right;
+}
+
+span.tkugp_assign_tag {
+    padding-left: 15px;
+}
+
+.tkugp_assign_tags_list{
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+
+.tkugp_assign_author_favrt span{
+  padding-right: 10px;
+}
+
+div#tkugp_addnew_button_metabox h2.hndle {
+    display: none !important;
+}
